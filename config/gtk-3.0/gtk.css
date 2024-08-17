@@ -1,0 +1,275 @@
+#whiskermenu-window treeview 
+{
+  padding-left: 10px;
+}
+
+#whiskermenu-button {
+  background-color: #485EAB;
+  color: #ffffff;
+  border-radius: 6px;
+  margin: 1px 1px 1px 0px;
+  margin-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-shadow: unset;
+}
+
+
+#whiskermenu-button:hover {
+  background-color: #6E7DB6;
+  box-shadow: unset;
+}
+
+
+#launcher-10 > box,
+#launcher-16 > box,
+#launcher-17 > box
+{
+  background-color: #0A0A0A;
+  margin: 3px;
+  margin: 1px 1px 1px 0px;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+#launcher-10 button,
+#launcher-16 button,
+#launcher-17 button
+{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#launcher-10 button:hover,
+#launcher-16 button:hover,
+#launcher-17 button:hover
+{
+  background-color: #202E5F;
+  border-radius: 4px;
+  transition-duration: 0;
+}
+
+.tasklist .horizontal
+{
+  background-color: #101010;
+  color: #ffffff;
+  border-radius: 6px;
+  margin: 1px 1px 1px 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+.tasklist .toggle 
+{
+  border: unset;
+  box-shadow: unset;
+}
+
+.tasklist .toggle:hover
+{
+  background-color: rgba(0,0,0,0);
+  border: unset;
+  box-shadow: unset;
+}
+
+.tasklist .toggle:hover .horizontal
+{
+  background-color: #191D29;
+}
+
+.tasklist .toggle:checked .horizontal
+{
+  background-color: #212E5B;
+}
+
+.tasklist .toggle:checked 
+{
+  background-color: rgba(0, 0, 0, 0);
+  border: unset;
+  box-shadow: unset;
+}
+
+
+.genmon_valuebutton:hover
+{
+  box-shadow: unset;
+}
+
+/*Clock*/
+
+#clock-button 
+{
+  background-color: #25283B;
+  color: #ffffff;
+  border-radius: 6px;
+  margin: 1px 1px 1px 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#clock-button:hover
+{
+  background-color: #255890;
+  box-shadow: unset;
+}
+
+#clock-button:checked
+{
+  background-color: #2A4F6C;
+  box-shadow: unset;
+}
+
+#systray-6 .horizontal .flat{
+	background-color: #18223F;
+  color: #ffffff;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 1px 1px 1px 0px;
+}
+
+
+#systray-6 .horizontal .flat:hover{
+  box-shadow: unset;
+	background-color: #293967;
+  color: #ffffff;
+}
+
+#systray-6 .horizontal .flat:active{
+  background-color: #4B6875;
+  box-shadow: unset;
+}
+
+/*
+#systray-6 button:nth-child(4) image
+{
+  -gtk-icon-transform: scale(0.8);
+}
+*/
+
+
+#pulseaudio-button,
+#xfce4-clipman-plugin,
+#xfce4-notes-plugin-12 .flat,
+#weather-19 .flat
+{
+  background-color: #232937;
+  color: #ffffff;
+
+  border-radius: 6px;
+  margin: 1px 1px 1px 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#pulseaudio-button:hover,
+#xfce4-clipman-plugin:hover,
+#xfce4-notes-plugin-12 .flat:hover,
+#weather-19 .flat:hover
+{
+  background-color: #383D49;
+  box-shadow: unset;
+}
+
+#pager-5 .horizontal
+{
+  border-radius: 6px;
+  background-color: #0d0d0d;
+  margin: 1px 10px 1px 10px;
+}
+
+#pager-5 .flat
+{ 
+  margin: 3px;
+  border-radius: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 9pt;
+  color: #565656;
+}
+
+#pager-5 .flat:hover
+{
+  box-shadow: unset;
+  background-color: #293E7C;
+  color: #ffffff;
+}
+
+#pager-5 .flat:checked
+{
+  box-shadow: unset;
+  background-color: #B32C3C;
+  color: #ffffff;
+}
+
+#pulseaudio-button:checked,
+#xfce4-clipman-plugin:checked,
+#xfce4-notes-plugin-12 .flat:checked,
+#weather-19 .flat:checked
+{
+  background-color: #2B3343;
+  box-shadow: unset;
+}
+
+#pulseaudio-button
+{
+  margin-right: 6px;
+}
+
+/* ****** xfce4-notes-plugin ****** */
+
+#notes-notebook
+{
+  background-color: #E1CC37;
+}
+
+#notes-notebook label
+{
+  color: #3C3927;
+}
+
+#notes-notebook tab:hover
+{
+  background-color: #F0E277;
+  padding: 0 10px 0 10px;
+}
+
+#notes-notebook tab:checked
+{
+  background-color: #FDF5B8;
+  padding: 0 10px 0 10px;
+}
+
+#notes-notebook tab:checked label
+{
+  color: #000C53;
+  font-weight: bold;
+}
+
+#notes-notebook .context-menu menuitem:not(disabled) label
+{
+  color: #ffffff;
+}
+
+#notes-notebook .context-menu menuitem:disabled label
+{
+  color: #666666;
+}
+
+#notes-window frame
+{
+  padding: 5px;
+  caret-color: #D0AB5B;
+}
+
+#notes-window frame box .frame
+{
+  border-radius: 10px;
+}
+
+#notes-window #titlebar
+{
+  color: #0E316C;
+}
+

@@ -1,0 +1,7 @@
+[Scheme]
+Name=Blood Moon
+ColorForeground=#E7E7E7
+ColorBackground=#10100E
+ColorCursor=#405555
+ColorPalette=#10100E;#C40233;#009F6B;#FFD700;#0087BD;#9A4EAE;#20B2AA;#E7E7E7;#696969;#FF2400;#03C03C;#FDFF00;#007FFF;#FF1493;#00CCCC;#FFFAFA
+ColorCursorUseDefault=FALSE
